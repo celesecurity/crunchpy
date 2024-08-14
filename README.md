@@ -23,19 +23,19 @@ Opcionalmente, você pode criar um ambiente virtual:
 
 1. Para usar o script, execute o seguinte comando:
 
-   python3 crunch.py <min_length> <max_length> <charset> <output_file>
+   python3 crunch.py <min_length> <max_length> <'charset'> <output_file>
 
-<min_length>: Comprimento mínimo das palavras.
+   <min_length>: Comprimento mínimo das palavras.
 
-<max_length>: Comprimento máximo das palavras.
+   <max_length>: Comprimento máximo das palavras.
 
-<charset>: Conjunto de caracteres a ser utilizado na wordlist.
+   <'charset'> : Conjunto de caracteres a ser utilizado na wordlist.
 
-<output_file>: Arquivo onde a wordlist gerada será salva.
+   <output_file>: Arquivo onde a wordlist gerada será salva.
 
 
-## Exemplo
+## Como usar
 
-Gere uma wordlist com todas as combinações possíveis dos caracteres 'abc' com comprimentos entre 2 e 3:
+   chmod +x crunch.py
 
-   python3 crunch.py 2 3 abc wordlist.txt
+   ./crunch.py 2 4 abcd123 wordlist.txt
