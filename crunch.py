@@ -3,14 +3,6 @@
 import itertools
 import sys
 
-def print_banner():
-    banner = """
-    ===========================================
-     Crunch.py v0.1 - Gerador de Wordlist
-    ===========================================
-    """
-    print(banner)
-
 
 def generate_wordlist(min_length, max_length, charset, output_file):
     with open(output_file, 'w') as f:
