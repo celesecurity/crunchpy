@@ -26,9 +26,13 @@ Opcionalmente, você pode criar um ambiente virtual:
    python3 crunch.py <min_length> <max_length> <charset> <output_file>
 
 <min_length>: Comprimento mínimo das palavras.
+
 <max_length>: Comprimento máximo das palavras.
+
 <charset>: Conjunto de caracteres a ser utilizado na wordlist.
+
 <output_file>: Arquivo onde a wordlist gerada será salva.
+
 
 ## Exemplo
 
