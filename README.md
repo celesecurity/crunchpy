@@ -10,6 +10,8 @@ Este é um script Python que replica a funcionalidade básica da ferramenta Crun
 
 ## Instalação
 
+git clone https://github.com/freitasec/crunchpy.git
+
 Você só precisa ter o Python 3.x instalado na sua máquina.
 
 Opcionalmente, você pode criar um ambiente virtual:
@@ -18,10 +20,12 @@ Opcionalmente, você pode criar um ambiente virtual:
 
 
    source venv/bin/activate
-
+   
 ## Uso
 
-1. Para usar o script, execute o seguinte comando:
+1. Execute o script:
+
+   cd crunchpy
 
    python3 crunch.py <min_length> <max_length> <'charset'> <output_file>
 
@@ -32,10 +36,3 @@ Opcionalmente, você pode criar um ambiente virtual:
    <'charset'> : Conjunto de caracteres a ser utilizado na wordlist.
 
    <output_file>: Arquivo onde a wordlist gerada será salva.
-
-
-## Como usar
-
-   chmod +x crunch.py
-
-   ./crunch.py 2 4 abcd123 wordlist.txt
